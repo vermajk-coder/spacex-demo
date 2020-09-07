@@ -1,0 +1,24 @@
+.launchTile {
+  display: block;
+  min-width: 200px;
+  background-color: white;
+  margin-top: 8px;
+  padding: 10px;
+}
+
+.missionLogo {
+  width: 100px;
+}
+
+.mission-logo-wrapper {
+  background-color: lightgray;
+  text-align: center;
+}
+.flight-details {
+  text-align: left;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
