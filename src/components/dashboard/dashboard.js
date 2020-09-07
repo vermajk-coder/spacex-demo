@@ -1,6 +1,7 @@
 import { Container, Col, Row } from "react-bootstrap";
 import Filter from "../launches/filter/filter";
 import LaunchDetails from "../launches/launchDetails/launchDetails";
+import dashboardStyle from "./dashboard.module.css";
 
 export default function Dashboard() {
   return (
@@ -16,6 +17,10 @@ export default function Dashboard() {
           </Col>
         </Row>
       </Container>
+      <div className={dashboardStyle.author}>
+        <strong>Developed by: </strong>
+        {process.env.author}
+      </div>
     </div>
   );
 }
