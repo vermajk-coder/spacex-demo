@@ -2,6 +2,7 @@
   "name": "spacex-program",
   "version": "0.1.0",
   "private": true,
+  "author": "Jitender kumar verma",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
