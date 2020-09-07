@@ -28,3 +28,14 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Implementation details
+
+- the app is served using Next.js to facilitate SSR.
+- redux is being used for the state management
+- react bootstarp for the layout
+
+## Improvements which can be done
+
+- moving hard coded string literals tp constant file
+- using sass
